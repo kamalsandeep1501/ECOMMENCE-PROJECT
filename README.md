@@ -24,3 +24,8 @@ Product Pages (page.html):
 Detailed descriptions including images, specifications, and pricing.
 
 Add to cart functionality.
+
+sceen shot:
+
+
+![Screenshot 2024-09-29 172056](https://github.com/user-attachments/assets/4195b48d-e33e-463e-be0a-de6c397a78b2)
