@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container 
+{
+        display: flex;
+        justify-content: space-between;
+        height: 600px;
+        
+}
+
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    flex: 1;
+}
+
+
+.container {
+    margin-right: 20px;
+}
+.container h1
+{
+    color: silver;
+    text-align: center;
+}
+
+.product-image {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+.details-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #1c1c1c;
+    color: white;
+    transition: border-color 0.3s;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="white"><path d="M5 8l5 5 5-5H5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.select:focus {
+    border-color: #00ccff;
+    outline: none;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.cart-container {
+    margin-left: 20px;
+    flex-basis: 300px;
+}
+
+.cart {
+    margin-top: 20px;
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.select option {
+    background-color: #1c1c1c;
+    color: white;
+}

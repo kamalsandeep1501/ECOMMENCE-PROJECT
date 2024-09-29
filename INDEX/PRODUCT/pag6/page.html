@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="page.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="product-container">
+            <div class="container">
+                <img src="../../image/f7.jpg" width="500" height="500" alt="Air Conditioner" class="product-image">
+                <h1 id="one">Yellow shirt</h3>
+            </div>
+            <div class="details-container">
+                <label for="quantity">Quantity:</label>
+                <select id="quantity" class="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="size">Select Size:</label>
+                <select id="size" class="select">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+
+                <label for="color">Select Color:</label>
+                <select id="color" class="select">
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <button id="addBtn" class="button">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="cart-container">
+            <h2>Your Cart</h2>
+            <div id="cart" class="cart"></div>
+            <button id="orderBtn" class="button">Order Now</button>
+        </div>
+    </div>
+
+    <script src="page.js"></script>
+</body>
+</html>
