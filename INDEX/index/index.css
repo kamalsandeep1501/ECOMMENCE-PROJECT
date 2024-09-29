@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+ body{
+     
+        font-family: "Inria Sans", sans-serif;
+}
+ .one{
+    padding: 100;
+    margin-top: 200;
+    margin-left: 200;
+    color: red;
+    column-gap: 5px;
+    background-color: rgb(23, 73, 116);
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height:60px;
+    background-color: rgb(23, 73, 116);
+}
+.navbar-link
+{
+    display:inline-flex;
+    column-gap: 20px;
+    background-color: rgb(23, 73, 116);
+}
+.navbar-links a
+{
+    text-decoration: none;
+    color:rgb(243, 237, 237);
+    padding: 10px;
+    background-color: rgb(23, 73, 116);
+}
+.side-bar
+{
+    background-color: black;
+    color: white;
+    width: 40%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    padding: 20px;
+    transition: 2s;
+
+    
+}
+.side-bar-links
+{
+    margin-bottom:30px;
+    background-color: black;
+
+}
+.side-bar-links a
+{
+    color: white ;
+    text-decoration: none;
+    background-color: black;
+}
+.side-bar-links a:hover{
+    text-decoration:underline;
+    color: rgb(12, 5, 161);
+}
+ 
+p{
+    font-size: 20px;
+    
+
+}
+.two
+{
+    background-color: black;
+}
+.navbar-links a:hover{
+    text-decoration:underline;
+    color: rgb(12, 5, 161);
+}
+.header {
+    display: flex ;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px;
+}
+.header-button
+{
+    padding:20px;
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.header-button a
+{
+    color:aliceblue;
+    text-decoration:none;
+    background-color:black;
+}
+.header-button a:hover
+{
+    color:red;
+    text-decoration:underline;
+}
+
+.service
+{
+    padding:10px;
+}
+.service-1
+{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    color:black;
+} 
+.service-2
+{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} 
+.menubar
+{
+    display: none;
+    
+
+}
+.new-arrival
+{
+    display:flex;
+    justify-content: space-between;
+}
+.new-arrival-container
+{
+    position: relative;
+    flex-basis: 20%;
+    flex:wrap;
+    margin-left: 50px;
+}
+.new-arrival-container button
+{
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    border-radius: 10px;
+    border: none;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+.news input{
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 100vb;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 3px;
+
+}
+.news button
+{
+    padding: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color:black;
+    border-radius: 10px;
+}
+.new-arrival-container button h4
+{
+    background-color:aliceblue;
+}
+.product-selection
+{
+    margin-top: 50px;
+}
+.product-search input {
+    display:flex;
+    padding: 10px;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-style: solid black 2px;
+    border-radius: 10px;
+    margin-left:20px;
+    font-size: 20px;
+}
+.product-search  {
+    display:flex;
+    padding: 10px;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-style: solid black 2px;
+    border-radius: 10px;
+    margin-left:20px;
+    font-size: 20px;
+}
+.product-search i
+{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    color:red
+}
+.products
+{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.product-box
+{
+    text-align: center;
+    flex-basis: 20%;
+}
+.new-arrival-container a
+{
+    text-decoration: none;
+}
+.product-box a
+{
+    color: black;
+    text-decoration: none;
+}
+.product-box a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+@media screen and (max-width:800px)
+{
+    .menubar{
+        display: block;
+    }
+    .navbar-links
+    {
+        display:none;
+    }
+    .service-1
+    {
+        display:none;
+    }
+    .service-2
+    {
+        flex-direction: column;
+    }
+    
+}
