@@ -29,3 +29,13 @@ sceen shot:
 
 
 ![Screenshot 2024-09-29 172056](https://github.com/user-attachments/assets/4195b48d-e33e-463e-be0a-de6c397a78b2)
+
+
+Built with:
+
+ HTML: Structured the content and layout of the website using semantic elements for better accessibility and SEO.
+ 
+·  CSS: Styled the pages to ensure an appealing aesthetic and improved user interface, utilizing Flexbox and Grid for responsive design.
+
+·  JavaScript: Implemented interactivity on the website, including event handling for buttons, dynamic content loading, and form validations
+
